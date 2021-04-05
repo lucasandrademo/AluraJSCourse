@@ -1,0 +1,20 @@
+{
+  "name": "bytebank",
+  "version": "1.0.0",
+  "description": "Projeto para o bytebank",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasandrademo/AluraJSCourse.git"
+  },
+  "author": "Lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasandrademo/AluraJSCourse/issues"
+  },
+  "homepage": "https://github.com/lucasandrademo/AluraJSCourse#readme",
+  "type": "module"
+}
