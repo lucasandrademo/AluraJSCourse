@@ -1,7 +1,10 @@
 
 export class bankClient{
-    _name;
-    _cpf;
+    constructor(nome, cpf, password){
+        this._name = nome;
+        this._cpf = cpf;
+        this._password = password
+    }
 
     get cpf(){
         return this._cpf;
@@ -11,8 +14,7 @@ export class bankClient{
         return this._name;
     }
 
-    constructor(nome, cpf){
-        this._name = nome;
-        this._cpf = cpf;
+    legalize(password){
+        return password == this._password;
     }
 }
